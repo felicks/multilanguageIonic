@@ -1,0 +1,35 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>{{ getTitle(folder) }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    
+  </ion-header>
+
+  <div id="container" *ngIf="folder != 4">
+    <ion-card>
+      <img src="https://cdn.topofart.com/images/artists/Vincent_van_Gogh/paintings/gogh001.jpg" />
+      <ion-card-header>
+        <ion-card-subtitle>{{ 'object.painting' | translate }}</ion-card-subtitle>
+        <ion-card-title>Mein schönes Bild</ion-card-title>
+      </ion-card-header>
+    </ion-card>
+  </div>
+
+  <div *ngIf="folder == 4" id="container">
+    <strong class="capitalize">{{ 'settings.title' | translate }}</strong>
+    <ion-item>
+      <ion-label translate>Language</ion-label>
+      <ion-select [(ngModel)]='languageSelection' (ionChange)='languageChange()' [placeholder]='getLanguage()'>
+        <ion-select-option value='ger'>German</ion-select-option>
+        <ion-select-option value='en'>English</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </div>
+</ion-content>

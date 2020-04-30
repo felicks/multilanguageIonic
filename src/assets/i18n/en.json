@@ -1,0 +1,20 @@
+{
+    "header": {
+      "title": "My Colletors App"
+    },
+
+    "settings": {
+        "title": "Change App Language"
+    },
+    "menu":{
+        "entry": "Add Entry",
+        "gallery": "Gallery",
+        "favorites": "Favorites",
+        "settings": "Settings"
+    },
+
+    "object":{
+        "painting": "Painting"
+    }
+
+  }
