@@ -36,8 +36,7 @@ export class FolderPage implements OnInit {
     console.log(this.translate.currentLang)
     return this.translate.currentLang
   }
-  languageChange(id) {  // add this
-
+  languageChange() {  // add this
     this.translate.use(this.languageSelection);  // add this
   } 
 }

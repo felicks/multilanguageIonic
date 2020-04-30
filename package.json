@@ -25,6 +25,7 @@
     "@ionic/angular": "^5.0.0",
     "@ngx-translate/core": "^12.1.2",
     "@ngx-translate/http-loader": "^4.0.0",
+    "angular-cli-ghpages": "^0.6.2",
     "cordova-ios": "^5.1.1",
     "cordova-plugin-device": "^2.0.2",
     "cordova-plugin-ionic-keyboard": "^2.2.0",
