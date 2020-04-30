@@ -1,0 +1,22 @@
+{
+    "header": {
+      "title": "Meine SammelApp"
+    },
+
+    "settings": {
+      "title": "Sprache ändern"
+  },
+
+    "menu":{
+      "entry": "Neuer Eintrag",
+      "gallery": "Galerie",
+      "favorites": "Favoriten",
+      "settings": "Einstellungen"
+    },
+
+
+  "object":{
+    "painting": "Gemälde"
+}
+
+  }
